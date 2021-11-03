@@ -12,6 +12,7 @@ Output: 40320
 let arr = [];
 const reducer = (accumulator, currentValue) => accumulator * currentValue;
 
+
 function FirstFactorial(num) { 
 	if ( num >= 1 ) {
 		arr = [...arr, num];
